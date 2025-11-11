@@ -1,7 +1,8 @@
 // src/routes.js
-const express = require("express");
-const crypto = require("crypto");
-const {
+import express from "express";
+import crypto from "node:crypto";
+
+import {
   docClient,
   TABLE_NAME,
   PRIMARY_KEY,
@@ -9,9 +10,9 @@ const {
   GetCommand,
   PutCommand,
   DeleteCommand,
-} = require("./dynamoClient");
+} from "./dynamoClient.js";
 
-const router = express.Router();
+export const router = express.Router();
 
 // Health check
 router.get("/health", (req, res) => {
@@ -132,5 +133,3 @@ router.delete("/items/:id", async (req, res) => {
     res.status(500).json({ error: "Failed to delete item" });
   }
 });
-
-module.exports = router;
