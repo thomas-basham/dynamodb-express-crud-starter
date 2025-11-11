@@ -41,7 +41,7 @@ This project provides a plug-and-play Express API connected to Amazon DynamoDB. 
 
 - Node.js 18 or higher
 - An existing DynamoDB table
-- AWS credentials with read/write access to that table
+- AWS credentials with read/write access to that table. [How to create an IAM User with access credentials](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SettingUp.DynamoWebService.html).
 
 ---
 
