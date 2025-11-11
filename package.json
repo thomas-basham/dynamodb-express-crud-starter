@@ -1,0 +1,26 @@
+{
+  "name": "dynamodb-express-crud-starter",
+  "version": "1.0.0",
+  "description": "A lightweight Express.js server that provides a simple CRUD REST API for DynamoDB.  ",
+  "keywords": [
+    "express",
+    "dynamodb",
+    "api",
+    "crud"
+  ],
+  "homepage": "https://github.com/thomas-basham/dynamodb-express-crud-starter#readme",
+  "bugs": {
+    "url": "https://github.com/thomas-basham/dynamodb-express-crud-starter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomas-basham/dynamodb-express-crud-starter.git"
+  },
+  "license": "MIT",
+  "author": "Thomas Basham",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
